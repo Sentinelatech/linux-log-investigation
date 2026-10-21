@@ -1,6 +1,6 @@
 # Especificação — linux-log-investigation
 
-**Semana:** 28/10 a 03/11/2026
+**Semana:** 30/10 a 05/11/2026
 **Entrega final:** relatório de investigação + script de análise
 
 ## Contexto
@@ -30,10 +30,10 @@ Qualquer ataque fora das suas VMs. O `hydra` só aponta para o seu próprio serv
 
 | Dia | Fase | Entrega do dia |
 |---|---|---|
-| Qua 28/10 | Montar as VMs e expor o SSH | Servidor e origem conversando por SSH |
-| Qui 29/10 | Gerar e capturar as tentativas | Log com as falhas registradas |
-| Sex 30/10 | Investigação manual | Linha do tempo em rascunho |
-| Sáb 31/10 | Script de análise (dia leve) | Script lendo o log e resumindo |
+| Sex 30/10 | Montar as VMs e expor o SSH | Servidor e origem conversando por SSH |
+| Sáb 31/10 | Gerar e capturar as tentativas (dia leve) | Log com as falhas registradas |
 | Dom 01/11 | Anonimizar a amostra (dia leve) | Amostra limpa em `dados/` |
-| Seg 02/11 | Hardening | Medidas aplicadas e documentadas |
-| Ter 03/11 | Fechamento | Relatório final e README |
+| Seg 02/11 | Investigação manual | Linha do tempo em rascunho |
+| Ter 03/11 | Script de análise | Script lendo o log e resumindo |
+| Qua 04/11 | Hardening | Medidas aplicadas e documentadas |
+| Qui 05/11 | Fechamento | Relatório final e README |
