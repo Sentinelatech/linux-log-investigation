@@ -30,10 +30,8 @@ Qualquer ataque fora das suas VMs. O `hydra` só aponta para o seu próprio serv
 
 | Dia | Fase | Entrega do dia |
 |---|---|---|
-| Sex 30/10 | Montar as VMs e expor o SSH | Servidor e origem conversando por SSH |
-| Sáb 31/10 | Gerar e capturar as tentativas (dia leve) | Log com as falhas registradas |
-| Dom 01/11 | Anonimizar a amostra (dia leve) | Amostra limpa em `dados/` |
-| Seg 02/11 | Investigação manual | Linha do tempo em rascunho |
-| Ter 03/11 | Script de análise | Script lendo o log e resumindo |
-| Qua 04/11 | Hardening | Medidas aplicadas e documentadas |
-| Qui 05/11 | Fechamento | Relatório final e README |
+| Sex 30/10 | VMs e SSH exposto | Servidor e origem conversando por SSH |
+| Seg 02/11 | Gerar e capturar as tentativas | Log com as falhas registradas |
+| Ter 03/11 | Investigação manual | Linha do tempo do ataque, em rascunho |
+| Qua 04/11 | Script de análise e amostra limpa | Script resumindo o log + amostra anonimizada em `dados/` |
+| Qui 05/11 | Hardening e fechamento | Medidas aplicadas, relatório final e README |
